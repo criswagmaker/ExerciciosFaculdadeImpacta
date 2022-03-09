@@ -1,3 +1,5 @@
+package Exercícios;
+
 import java.util.Scanner;
 
 public class ex11 {
@@ -13,34 +15,34 @@ public class ex11 {
 		n1 = sc.nextInt();
 		n2 = sc.nextInt();
 		n3 = sc.nextInt();
-		
+
 		System.out.println();
-		
-		if(n1 < n2 && n1 < n3) {
+
+		if (n1 < n2 && n1 < n3) {
 			System.out.println(n1);
-			if(n2 < n3) {
+			if (n2 < n3) {
 				System.out.println(n2);
 				System.out.println(n3);
 			}
 		}
-		if(n2 < n1 && n2 < n3) {
+		if (n2 < n1 && n2 < n3) {
 			System.out.println(n2);
-			if(n1 < n3) {
+			if (n1 < n3) {
 				System.out.println(n1);
 				System.out.println(n3);
 			}
 		}
-		if(n3 < n2 && n3 < n1) {
+		if (n3 < n2 && n3 < n1) {
 			System.out.println(n3);
-			if(n2 < n1) {
+			if (n2 < n1) {
 				System.out.println(n2);
 				System.out.println(n1);
 			}
-			if(n1 < n2) {
+			if (n1 < n2) {
 				System.out.println(n1);
 				System.out.println(n2);
 			}
-		
+
 		}
 	}
 }

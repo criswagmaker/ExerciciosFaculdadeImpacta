@@ -1,3 +1,5 @@
+package Exercícios;
+
 public class ex02 {
 
 	

@@ -1,3 +1,5 @@
+package Exercícios;
+
 import java.util.Scanner;
 
 public class ex20 {

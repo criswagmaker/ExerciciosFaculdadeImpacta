@@ -1,3 +1,5 @@
+package Exercícios;
+
 import java.util.Scanner;
 
 public class ex07 {
@@ -22,7 +24,7 @@ public class ex07 {
 		if (n2 > n1) {
 			System.out.println("O maior valor inserido é " + n2 + ".");
 		}
-		
+
 	}
 
 }
