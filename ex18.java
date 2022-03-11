@@ -19,14 +19,12 @@ public class ex18 {
 
 		for (int i = 0; i < 10; i++) {
 			if (vet[i] % 2 == 0) {
-				System.out.println("Par");
 				par++;
 			} else {
-				System.out.println("Ímpar");
 				impar++;
 			}
 
-			System.out.println(par + " números são pares.\n" + impar + " números são ímpares.");
 		}
+		System.out.println(par + " números são pares.\n" + impar + " números são ímpares.");
 	}
 }

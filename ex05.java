@@ -16,7 +16,7 @@ public class ex05 {
 
 		int salarioUser, totalSalarios;
 
-		System.out.println("Insira seu salário: R$");
+		System.out.print("Insira seu salário: R$");
 		salarioUser = sc.nextInt();
 
 		totalSalarios = salarioUser / 788;
